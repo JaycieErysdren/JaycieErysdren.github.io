@@ -29,6 +29,12 @@ a {
 	margin: 1em 1em 1em 1em;
 }
 
+.cursor {
+	margin: 0 0 0 1ch;
+	border-right: 1ch solid white;
+	animation: cursor-blink 1s step-start infinite;
+}
+
 .response {
 	margin: 1em 1em 1em 2em;
 }
@@ -49,4 +55,12 @@ a {
 
 .red {
 	color: #c01c28;
+}
+
+/* blinking cursor */
+
+@keyframes cursor-blink {
+	50% {
+		opacity: 0;
+	}
 }
