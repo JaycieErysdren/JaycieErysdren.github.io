@@ -1,0 +1,52 @@
+/* page reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+/* page setup */
+
+html {
+	background-color: #1e1e1e;
+	color: white;
+	font-family: monospace;
+}
+
+a {
+	text-decoration: none;
+	color: #c01c28;
+}
+
+/* text divs */
+
+.command {
+	margin: 1em 1em 1em 1em;
+}
+
+.response {
+	margin: 1em 1em 1em 2em;
+}
+
+/* text colors */
+
+.grn {
+	color: #26a269;
+}
+
+.blu {
+	color: #12488b;
+}
+
+.prp {
+	color: #a347ba;
+}
+
+.red {
+	color: #c01c28;
+}
