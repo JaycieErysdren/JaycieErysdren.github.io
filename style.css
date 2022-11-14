@@ -23,7 +23,27 @@ a {
 	color: #c01c28;
 }
 
+/* columns */
+
+.terminal-parent {
+	display: grid;
+	grid-template-columns: repeat(2, 40ch);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.terminal-div {
+	margin: 1em 2em 1em 2em;
+}
+	
+.terminal-left { grid-area: 1 / 1 / 2 / 2; }
+.terminal-right { grid-area: 1 / 2 / 2 / 3; }
+
 /* text divs */
+
+.pre {
+	white-space: pre;
+}
 
 .terminal {
 	width: 35%;
