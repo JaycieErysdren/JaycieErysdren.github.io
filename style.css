@@ -25,6 +25,10 @@ a {
 
 /* text divs */
 
+.terminal {
+	width: 35%;
+}
+
 .command {
 	margin: 1em 1em 1em 1em;
 }
@@ -62,5 +66,19 @@ a {
 @keyframes cursor-blink {
 	50% {
 		opacity: 0;
+	}
+}
+
+/* media queries */
+
+@media (max-width: 1080px) {
+	.terminal {
+		width: 60%;
+	}
+}
+
+@media (max-width: 768px) {
+	.terminal {
+		width: 100%;
 	}
 }
